@@ -1,0 +1,29 @@
+// SASS helps us to implement parent and child classes even in our stylesheets. example, in this project the id #side-list is a child of the id #side-area-main
+#side-area-main {
+    background-color: rgb(60, 183, 119);
+    height: 100%;
+    padding: 25px;
+
+    #side-list {
+        list-style: none;
+        color: #fff;
+        font-size: 20px;
+        font-family: Nunito, sans-serif;
+
+        a {
+            color: #fff;
+        }
+
+        a:hover {
+            color: #3097d1;
+            text-decoration: none;
+        }
+    }
+}
+
+#main-categories {
+    padding: 25px;
+}
+
+
+
